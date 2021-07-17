@@ -100,7 +100,7 @@ extension FlickrPhotosViewController {
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("HIIIII")
         if let cell = collectionView.cellForItem(at: indexPath) as? FlickrPhotoCell {
-            cell.backgroundColor = .purple
+            cell.backgroundColor = .systemBlue
             }
         
     }
